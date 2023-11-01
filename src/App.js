@@ -56,7 +56,7 @@ function App() {
 
   return (
     <div className="App">
-      <TaskViewer data={data} />
+      <TaskViewer data={data} setData={setData} />
     </div>
   );
 }
