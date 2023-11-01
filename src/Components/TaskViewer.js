@@ -3,7 +3,7 @@ import Card from "./Card";
 import styles from "./TaskViewer.module.css";
 import ModalComponent from "./Modal";
 
-const TastViewer = ({ data, setData }) => {
+const TaskViewer = ({ data, setData }) => {
 
   const taskData  = (newTask) => {
     // console.log(newTask, "din task viewer")
@@ -30,4 +30,4 @@ const TastViewer = ({ data, setData }) => {
   );
 };
 
-export default TastViewer;
+export default TaskViewer;
