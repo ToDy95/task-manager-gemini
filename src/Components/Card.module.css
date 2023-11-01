@@ -1,0 +1,85 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 248px;
+    /* height: 170px; */
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 30px 60px 0px rgba(32, 56, 85, 0.15);
+    padding: 20px;
+    gap: 20px;
+}
+
+.taskId{
+    color: #B9B9B9;
+    font-family: Sen;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.28px;
+}
+
+.toDo{
+    display: inline-flex;
+    height: 24px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #F2F2F2;
+    color: #808080;
+    font-family: Sen;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.24px;
+}
+
+
+
+.firstLine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondLine{
+    color: var(--accent-stm-dark-mode-bg, #16171D);
+    font-family: Sen;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 137.5% */
+    letter-spacing: -0.32px;
+}
+
+.thirdLine{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.dueDate{
+    color: #999;
+    font-family: Sen;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.24px;
+}
+
+.date{
+    color: var(--accent-stm-dark-mode-bg, #16171D);
+    font-family: Sen;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.42px;
+}

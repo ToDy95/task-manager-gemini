@@ -1,23 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import TaskViewer from "./Components/TaskViewer";
 
 function App() {
+  const [data, setData] = useState([
+    {
+      id: "T-1",
+      status: "Progress",
+      message: "Create a Design System for Enum Workspace.",
+      dueDate: new Date(2023, 1, 23),
+    },
+    {
+      id: "T-2",
+      status: "Done",
+      message: "Create a Design System for Enum Workspace.",
+      dueDate: new Date(2023, 1, 23),
+    },
+    {
+      id: "T-3",
+      status: "Waiting",
+      message: "Create a Design System for Enum Workspace.",
+      dueDate: new Date(2023, 1, 23),
+    },
+    {
+      id: "T-4",
+      status: "Canceled",
+      message: "Create a Design System for Enum Workspace.",
+      dueDate: new Date(2023, 1, 23),
+    },
+    {
+      id: "T-5",
+      status: "Abandoned",
+      message: "Create a Design System for Enum Workspace.",
+      dueDate: new Date(2023, 1, 23),
+    },
+    {
+      id: "T-6",
+      status: "Abandoned",
+      message: "Create a Design System for Enum Workspace.",
+      dueDate: new Date(2023, 1, 23),
+    },
+    {
+      id: "T-7",
+      status: "Abandoned",
+      message: "Create a Design System for Enum Workspace.",
+      dueDate: new Date(2023, 1, 23),
+    },
+    {
+      id: "T-8",
+      status: "Abandoned",
+      message: "Create a Design System for Enum Workspace.",
+      dueDate: new Date(2023, 1, 23),
+    },
+  ]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TaskViewer data={data} />
     </div>
   );
 }

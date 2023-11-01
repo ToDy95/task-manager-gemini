@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.content{
+    border-radius: 18px;
+    background: #F3F3FB;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+}
+
