@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import TaskViewer from "./Components/TaskViewer";
+import Search from "./Components/Search";
 
 function App() {
   const [data, setData] = useState([]);
-  const [filteredData, setFilteredData] = useState([])
-  const [inputValue, setInputValue] = useState("")
+  const [filteredData, setFilteredData] = useState([]);
   const fetchData = async () => {
-    const response = await fetch('./firstData.json');
+    const response = await fetch('./data.json');
     const res = await response.json();
     setData(res)
   }
@@ -15,15 +15,13 @@ function App() {
     fetchData()
   }, [])
 
-  useEffect(() => {
-    setFilteredData(data.filter(find => find.message.toLowerCase().includes(inputValue.toLowerCase())))
-    console.log(data)
-  },[inputValue])
-
+  const searchData = (filterData) => {
+    setFilteredData(filterData)
+  }
 
   return (
     <div className="App">
-      <input type="search" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
+      <Search data={data} searchData={searchData}/>
       <TaskViewer data={filteredData.length>0 ? filteredData: data} setData={setData} />
     </div>
   );
