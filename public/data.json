@@ -1,50 +1,242 @@
 [
   {
     "id": "1",
-    "message": "Createa a Card",
+    "message": "Create a Card",
     "status": "In progress",
-    "title": "Bla bla bla1",
+    "title": "Titlu 1",
     "dueDate": "12 24, 22",
-    "details": "What is Lorem Ipsum?  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "details": "What is Lorem Ipsum?  Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
     "id": "2",
-    "message": "Createa a dashboard",
-    "status": "In progress",
-    "title": "Bla bla bla2",
-    "dueDate": "12 24, 22",
-    "details": "What is Lorem Ipsum?  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "message": "Update User Profile",
+    "status": "Not started",
+    "title": "Titlu 2",
+    "dueDate": "01 15, 23",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
     "id": "3",
-    "message": "Createa a view for our Cards List",
-    "status": "Done",
-    "title": "Bla bla bla3",
-    "dueDate": "12 24, 22",
-    "details": "What is Lorem Ipsum?  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "message": "Review Project Proposal",
+    "status": "Completed",
+    "title": "Titlu 3",
+    "dueDate": "03 02, 23",
+    "details": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
   },
   {
     "id": "4",
-    "message": "Make a filter",
-    "status": "To be assigned",
-    "title": "Bla bla bla4",
-    "dueDate": "12 24, 22",
-    "details": "What is Lorem Ipsum?  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "message": "Task 4",
+    "status": "Not started",
+    "title": "Titlu 4",
+    "dueDate": "04 10, 23",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
     "id": "5",
-    "message": "Create a component Create New Task",
+    "message": "Task 5",
     "status": "In progress",
-    "title": "Bla bla bla5",
-    "dueDate": "09 14, 22",
-    "details": "What is Lorem Ipsum?  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "title": "Titlu 5",
+    "dueDate": "05 20, 23",
+    "details": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
   },
   {
     "id": "6",
-    "message": "Put all together",
+    "message": "Task 6",
+    "status": "Completed",
+    "title": "Titlu 6",
+    "dueDate": "06 30, 23",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "7",
+    "message": "Task 7",
+    "status": "Not started",
+    "title": "Titlu 7",
+    "dueDate": "07 05, 23",
+    "details": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  },
+  {
+    "id": "8",
+    "message": "Task 8",
     "status": "In progress",
-    "title": "Bla bla bla6",
-    "dueDate": "12 24, 22",
-    "details": "What is Lorem Ipsum?  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "title": "Titlu 8",
+    "dueDate": "08 12, 23",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "9",
+    "message": "Task 9",
+    "status": "Not started",
+    "title": "Titlu 9",
+    "dueDate": "09 15, 23",
+    "details": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  },
+  {
+    "id": "10",
+    "message": "Task 10",
+    "status": "In progress",
+    "title": "Titlu 10",
+    "dueDate": "10 20, 23",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "11",
+    "message": "Task 11",
+    "status": "Not started",
+    "title": "Titlu 11",
+    "dueDate": "11 25, 23",
+    "details": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  },
+  {
+    "id": "12",
+    "message": "Task 12",
+    "status": "In progress",
+    "title": "Titlu 12",
+    "dueDate": "12 30, 23",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "13",
+    "message": "Task 13",
+    "status": "Completed",
+    "title": "Titlu 13",
+    "dueDate": "01 05, 24",
+    "details": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  },
+  {
+    "id": "14",
+    "message": "Task 14",
+    "status": "In progress",
+    "title": "Titlu 14",
+    "dueDate": "02 10, 24",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "15",
+    "message": "Task 15",
+    "status": "Not started",
+    "title": "Titlu 15",
+    "dueDate": "03 15, 24",
+    "details": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  },
+  {
+    "id": "16",
+    "message": "Task 16",
+    "status": "In progress",
+    "title": "Titlu 16",
+    "dueDate": "04 20, 24",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "17",
+    "message": "Task 17",
+    "status": "Completed",
+    "title": "Titlu 17",
+    "dueDate": "05 25, 24",
+    "details": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  },
+  {
+    "id": "18",
+    "message": "Task 18",
+    "status": "In progress",
+    "title": "Titlu 18",
+    "dueDate": "06 30, 24",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "19",
+    "message": "Task 19",
+    "status": "Not started",
+    "title": "Titlu 19",
+    "dueDate": "07 05, 24",
+    "details": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  },
+  {
+    "id": "20",
+    "message": "Task 20",
+    "status": "In progress",
+    "title": "Titlu 20",
+    "dueDate": "08 10, 24",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "21",
+    "message": "Task 21",
+    "status": "Not started",
+    "title": "Titlu 21",
+    "dueDate": "09 15, 24",
+    "details": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  },
+  {
+    "id": "22",
+    "message": "Task 22",
+    "status": "In progress",
+    "title": "Titlu 22",
+    "dueDate": "10 20, 24",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "23",
+    "message": "Task 23",
+    "status": "Not started",
+    "title": "Titlu 23",
+    "dueDate": "11 25, 24",
+    "details": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  },
+  {
+    "id": "24",
+    "message": "Task 24",
+    "status": "In progress",
+    "title": "Titlu 24",
+    "dueDate": "12 30, 24",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "25",
+    "message": "Task 25",
+    "status": "Completed",
+    "title": "Titlu 25",
+    "dueDate": "01 05, 25",
+    "details": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  },
+  {
+    "id": "26",
+    "message": "Task 26",
+    "status": "In progress",
+    "title": "Titlu 26",
+    "dueDate": "02 10, 25",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "27",
+    "message": "Task 27",
+    "status": "Not started",
+    "title": "Titlu 27",
+    "dueDate": "03 15, 25",
+    "details": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  },
+  {
+    "id": "28",
+    "message": "Task 28",
+    "status": "In progress",
+    "title": "Titlu 28",
+    "dueDate": "04 20, 25",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "29",
+    "message": "Task 29",
+    "status": "Completed",
+    "title": "Titlu 29",
+    "dueDate": "05 25, 25",
+    "details": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  },
+  {
+    "id": "30",
+    "message": "Task 30",
+    "status": "In progress",
+    "title": "Titlu 30",
+    "dueDate": "06 30, 25",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   }
 ]

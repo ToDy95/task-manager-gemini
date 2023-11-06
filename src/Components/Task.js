@@ -3,8 +3,7 @@ import {useParams} from 'react-router-dom'
 
 const Task = () => {
   const {id} = useParams();
-  const [data, setData] = useState([]
-  );
+  const [data, setData] = useState([]);
 
   const fetchData = async () => {
     try {
