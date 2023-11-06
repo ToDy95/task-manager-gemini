@@ -20,7 +20,7 @@ const Home = () => {
   }
 
   return (
-    <div className="App">
+    <div className="App" >
       <Search data={data} searchData={searchData}/>
       <TaskViewer data={filteredData.length>0 ? filteredData: data} setData={setData} />
     </div>

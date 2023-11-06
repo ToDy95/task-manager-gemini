@@ -4,6 +4,9 @@
     padding: 40px;
     justify-content: flex-start;
     flex-direction: column;
+
+    height: 80vh;
+    overflow-y:auto;
 }
 
 .title{
