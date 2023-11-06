@@ -1,62 +1,30 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import TaskViewer from "./Components/TaskViewer";
 
 function App() {
-  const [data, setData] = useState([
-    {
-      id: "T-1",
-      status: "Progress",
-      message: "Create a Design System for Enum Workspace.",
-      dueDate: new Date(2023, 1, 23),
-    },
-    {
-      id: "T-2",
-      status: "Done",
-      message: "Create a Design System for Enum Workspace.",
-      dueDate: new Date(2023, 1, 23),
-    },
-    {
-      id: "T-3",
-      status: "Waiting",
-      message: "Create a Design System for Enum Workspace.",
-      dueDate: new Date(2023, 1, 23),
-    },
-    {
-      id: "T-4",
-      status: "Canceled",
-      message: "Create a Design System for Enum Workspace.",
-      dueDate: new Date(2023, 1, 23),
-    },
-    {
-      id: "T-5",
-      status: "Abandoned",
-      message: "Create a Design System for Enum Workspace.",
-      dueDate: new Date(2023, 1, 23),
-    },
-    {
-      id: "T-6",
-      status: "Abandoned",
-      message: "Create a Design System for Enum Workspace.",
-      dueDate: new Date(2023, 1, 23),
-    },
-    {
-      id: "T-7",
-      status: "Abandoned",
-      message: "Create a Design System for Enum Workspace.",
-      dueDate: new Date(2023, 1, 23),
-    },
-    {
-      id: "T-8",
-      status: "Abandoned",
-      message: "Create a Design System for Enum Workspace.",
-      dueDate: new Date(2023, 1, 23),
-    },
-  ]);
+  const [data, setData] = useState([]);
+  const [filteredData, setFilteredData] = useState([])
+  const [inputValue, setInputValue] = useState("")
+  const fetchData = async () => {
+    const response = await fetch('./firstData.json');
+    const res = await response.json();
+    setData(res)
+  }
+  useEffect(() => {
+    fetchData()
+  }, [])
+
+  useEffect(() => {
+    setFilteredData(data.filter(find => find.message.toLowerCase().includes(inputValue.toLowerCase())))
+    console.log(data)
+  },[inputValue])
+
 
   return (
     <div className="App">
-      <TaskViewer data={data} setData={setData} />
+      <input type="search" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
+      <TaskViewer data={filteredData.length>0 ? filteredData: data} setData={setData} />
     </div>
   );
 }

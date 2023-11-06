@@ -21,9 +21,9 @@ const TaskViewer = ({ data, setData }) => {
         <ModalComponent  taskData={taskData}/>
       </div>
       <div className={styles.content}>
-        {data.map((item) => {
-          console.log(item);
-          return <Card item={item} />;
+        {data.map((item, index) => {
+
+          return <Card item={item} key={index}/>;
         })}
       </div>
     </div>

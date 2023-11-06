@@ -58,6 +58,7 @@ const ModalComponent = ({taskData}) => {
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         style={customStyles}
+        ariaHideApp={false}
         contentLabel="Example Modal">
         <button onClick={closeModal}>close</button>
       <div style={{display:'flex',flexDirection:'column',gap:30}}>

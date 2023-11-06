@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Card.module.css";
 
 const Card = ({ item }) => {
+
   return (
     <div className={styles.card}>
       <div className={styles.firstLine}>
@@ -12,7 +13,7 @@ const Card = ({ item }) => {
       <div className={styles.thirdLine}>
         <div className={styles.dueDate}>Due Date</div>
         <div className={styles.date}>
-          {item.dueDate.toLocaleDateString("ro-RO")}
+          {new Date(item.dueDate).toLocaleDateString("ro-RO")}
         </div>
       </div>
     </div>
