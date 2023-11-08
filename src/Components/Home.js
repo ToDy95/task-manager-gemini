@@ -19,9 +19,7 @@ const Home = () => {
   const searchData = (filterData) => {
     setFilteredData(filterData)
   }
-  const trimitData = (a) => {
 
-  }
   return (
     <div className="App" >
       <Search data={data} searchData={searchData} />
